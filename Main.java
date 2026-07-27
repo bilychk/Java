@@ -1,4 +1,4 @@
-public class Main
+public class Main //We can do only one public class in one file
 {
     public static void main(String[] args){
         System.out.println("Hello world");   // ln is line new    , to comment whole section pick Command and ?/ button
@@ -42,3 +42,21 @@ public class Main
 }
 
 // Переменная - это именованное место для хранения значения. У каждой переменной в Java есть тип, имя и текущее значение.
+
+
+
+
+
+// 1
+class VisitCard
+{
+    public static void main(String[] args) {
+        String name = "Kristina";
+        int age = 21;
+        String city = "Tallinn";
+        System.out.println(name);
+        System.out.println(age);
+        System.out.println(city);
+    }
+}
+
