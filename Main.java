@@ -92,7 +92,7 @@ class YoureGettingOlder
         System.out.print("Enter your age: ");
         int age = scanner.nextInt();
 
-        System.out.println("Hey, " + (name) + ". Your age next year gonna be "+ (age + 1)+ ". Yay!");
+        System.out.println("Hey, " + (name)+ "!" + ". Your age next year gonna be "+ (age + 1)+ ". Yay!");
         scanner.close();
     }
 }
