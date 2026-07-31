@@ -61,7 +61,7 @@ class VisitCard
     }
 }
 
-
+// Instead of print function like in python, java need System.out.printDatatype
 
 class TwoNumbers
 {
