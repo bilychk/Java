@@ -96,3 +96,19 @@ class YoureGettingOlder
         scanner.close();
     }
 }
+
+
+
+class Rectangle
+    {
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(Stystem.in);
+            System.out.print("Enter length: ");
+            int lenght = scanner.nextInt();
+
+            System.out.print("Enter weight: ")
+            int weight = scanner.nextInt();
+
+
+    }
+}
