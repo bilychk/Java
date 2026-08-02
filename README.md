@@ -20,13 +20,13 @@ Currently practicing:
 - Console applications
 - Basic classes and methods
 
-## 🛠 Technologies
+## Technologies
 
 - Java
 - IntelliJ IDEA
 - Git
 - GitHub
 
-## 📌 About This Repository
+## About This Repository
 
 This is a learning repository where I practice Java programming and document my progress while building my programming foundation.
