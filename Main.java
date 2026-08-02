@@ -62,7 +62,7 @@ class VisitCard
 }
 
 // Instead of print function like in python, java need System.out.printDatatype
-
+//2
 class TwoNumbers
 {
     public static void main(String[] args) {
@@ -80,7 +80,7 @@ class TwoNumbers
 }
 
 
-
+//3
 class YoureGettingOlder
 {
 
@@ -98,7 +98,7 @@ class YoureGettingOlder
 }
 
 
-
+//4
 class Rectangle
     {
         public static void main(String[] args) {
@@ -117,5 +117,17 @@ class Rectangle
             System.out.println("Perimeter = " + perimeter);
 
             scanner.close();
+    }
+}
+//5
+class Temperature {
+    public static void main(String[] args ) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter temperature in celsius to convert it later to Fahrenheit: ");
+        double temp = scanner.nextDouble();   //I used double because if user enters 36.6 in int it will print out an error.
+        double fahrenheit = temp * 9 / 5 + 32;
+        System.out.println("Here is your temperature in Foreingeith: " + fahrenheit);
+        scanner.close();
+
     }
 }
