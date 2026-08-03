@@ -15,17 +15,14 @@ Currently practicing:
 
 - Java syntax
 - Variables and data types
-- User input with `Scanner`
 - Arithmetic operations
 - Console applications
-- Basic classes and methods
 
 ## Technologies
 
 - Java
 - IntelliJ IDEA
 - Git
-- GitHub
 
 ## About This Repository
 
