@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Main //We can do only one public class in one file
+public class HelloWorld //We can do only one public class in one file
 {
     public static void main(String[] args){
         System.out.println("Hello world");   // ln is line new    , to comment whole section pick Command and ?/ button

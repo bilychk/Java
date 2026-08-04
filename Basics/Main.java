@@ -1,242 +1,242 @@
-import java.util.Scanner;
-public class Main //We can do only one public class in one file
-{
-    public static void main(String[] args){
-        System.out.println("Hello world");   // ln is line new    , to comment whole section pick Command and ?/ button
-        System.out.println("Hello");
-        // print() - everything in one line
-        // println() - every line in differetn row
-        // \n - new line
-        // \t - tabulation
-        // \\ - print("Hello\\world") then it will appear like Hello\world
+// import java.util.Scanner;
+// public class Main //We can do only one public class in one file
+// {
+//     public static void main(String[] args){
+//         System.out.println("Hello world");   // ln is line new    , to comment whole section pick Command and ?/ button
+//         System.out.println("Hello");
+//         // print() - everything in one line
+//         // println() - every line in differetn row
+//         // \n - new line
+//         // \t - tabulation
+//         // \\ - print("Hello\\world") then it will appear like Hello\world
 
-        //data_type val_name = value
-        // int - number w.o a comma (4 bytes)
-        // int price = 5.5 is not allowed
-        //int price = 5;
-        // Every data type in java is a class
-
-
-        //short - number w.o comma (2 bytes) -32768 to 32767
-        // shor a =4;
+//         //data_type val_name = value
+//         // int - number w.o a comma (4 bytes)
+//         // int price = 5.5 is not allowed
+//         //int price = 5;
+//         // Every data type in java is a class
 
 
-        //float - number with a comma (4 bytes)
+//         //short - number w.o comma (2 bytes) -32768 to 32767
+//         // shor a =4;
+
+
+//         //float - number with a comma (4 bytes)
         
-        //float x =5.5f its a must to write extra "f", so the number is a float!!!!
+//         //float x =5.5f its a must to write extra "f", so the number is a float!!!!
 
-        // double - number with a comma (8 bytes)
-        // double x = 5.5;
+//         // double - number with a comma (8 bytes)
+//         // double x = 5.5;
 
-        //boolean - true or false, but you cant write 1 or 0 (1 bytes)
-        //boolean isSomething = true;
+//         //boolean - true or false, but you cant write 1 or 0 (1 bytes)
+//         //boolean isSomething = true;
 
-        //byte -127 do 126 (1 bayt)
-        //byte a = 12;
+//         //byte -127 do 126 (1 bayt)
+//         //byte a = 12;
 
-        // char 
-        // char x = 97; //a
-        // System.out.print(x);
-
-
-    }
-}
-
-// Переменная - это именованное место для хранения значения. У каждой переменной в Java есть тип, имя и текущее значение.
+//         // char 
+//         // char x = 97; //a
+//         // System.out.print(x);
 
 
+//     }
+// }
+
+// // Переменная - это именованное место для хранения значения. У каждой переменной в Java есть тип, имя и текущее значение.
 
 
 
-// 1
-class VisitCard
-{
-    public static void main(String[] args) {
-        String name = "Kristina";
-        int age = 21;
-        String city = "Tallinn";
-        System.out.println(name);
-        System.out.println(age);
-        System.out.println(city);
-    }
-}
-
-// Instead of print function like in python, java need System.out.printDatatype
-//2
-class TwoNumbers
-{
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter the first number: ");
-        int num1 = scanner.nextInt();
-
-        System.out.print("Enter the second number: ");
-        int num2 = scanner.nextInt();
-
-        System.out.println("The sum of two numbers is: "+ (num1 + num2)+ ".");
-        scanner.close();
-
-    }
-}
 
 
-//3
-class YoureGettingOlder
-{
+// // 1
+// class VisitCard
+// {
+//     public static void main(String[] args) {
+//         String name = "Kristina";
+//         int age = 21;
+//         String city = "Tallinn";
+//         System.out.println(name);
+//         System.out.println(age);
+//         System.out.println(city);
+//     }
+// }
 
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter your name: ");
-        String name = scanner.nextLine();
+// // Instead of print function like in python, java need System.out.printDatatype
+// //2
+// class TwoNumbers
+// {
+//     public static void main(String[] args) {
+//         Scanner scanner = new Scanner(System.in);
+//         System.out.print("Enter the first number: ");
+//         int num1 = scanner.nextInt();
 
-        System.out.print("Enter your age: ");
-        int age = scanner.nextInt();
+//         System.out.print("Enter the second number: ");
+//         int num2 = scanner.nextInt();
 
-        System.out.println("Hey, " + (name)+ "!" + ". Your age next year gonna be "+ (age + 1)+ ". Yay!");
-        scanner.close();
-    }
-}
+//         System.out.println("The sum of two numbers is: "+ (num1 + num2)+ ".");
+//         scanner.close();
 
-
-//4
-class Rectangle
-    {
-        public static void main(String[] args) {
-            Scanner scanner = new Scanner(System.in);
-
-            System.out.print("Enter length: ");
-            int length = scanner.nextInt();
-
-            System.out.print("Enter width: ");
-            int width = scanner.nextInt();
-
-            int area = length * width;
-            int perimeter = 2 * (length + width);
-
-            System.out.println("Area = " + area);
-            System.out.println("Perimeter = " + perimeter);
-
-            scanner.close();
-    }
-}
-//5
-class Temperature {
-    public static void main(String[] args ) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter temperature in celsius to convert it later to Fahrenheit: ");
-        double temp = scanner.nextDouble();   //I used double because if user enters 36.6 in int it will print out an error.
-        double fahrenheit = temp * 9 / 5 + 32;
-        System.out.println("Here is your temperature in Foreingeith: " + fahrenheit);
-        scanner.close();
-
-    }
-}
+//     }
+// }
 
 
-//6
-class NumbersAverage
-{
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+// //3
+// class YoureGettingOlder
+// {
 
-        System.out.print("Enter the first number: ");
-        double firstNumber = scanner.nextDouble(); //Srednee ne vsegda celoe 4islo, poetomu double
+//     public static void main(String[] args) {
+//         Scanner scanner = new Scanner(System.in);
+//         System.out.print("Enter your name: ");
+//         String name = scanner.nextLine();
 
-        System.out.print("Enter the second number: ");
-        double secondNumber = scanner.nextDouble();
+//         System.out.print("Enter your age: ");
+//         int age = scanner.nextInt();
 
-        System.out.print("Enter the third number: ");
-        double thirdNumber = scanner.nextDouble();
-
-        double average = (firstNumber + secondNumber + thirdNumber) / 3;
-
-        System.out.println("The average of three numbers is: " + average);
-
-        scanner.close();
-    }
-}
+//         System.out.println("Hey, " + (name)+ "!" + ". Your age next year gonna be "+ (age + 1)+ ". Yay!");
+//         scanner.close();
+//     }
+// }
 
 
-//7
-class TimeConverter
-{
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+// //4
+// class Rectangle
+//     {
+//         public static void main(String[] args) {
+//             Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter hours: ");
-        int hours = scanner.nextInt();
+//             System.out.print("Enter length: ");
+//             int length = scanner.nextInt();
 
-        System.out.print("Enter minutes: ");
-        int minutes = scanner.nextInt();
+//             System.out.print("Enter width: ");
+//             int width = scanner.nextInt();
 
-        int total = hours * 60 + minutes;
+//             int area = length * width;
+//             int perimeter = 2 * (length + width);
 
-        System.out.println("Total minutes: " + total);
+//             System.out.println("Area = " + area);
+//             System.out.println("Perimeter = " + perimeter);
 
-        scanner.close();
-    }
-}
+//             scanner.close();
+//     }
+// }
+// //5
+// class Temperature {
+//     public static void main(String[] args ) {
+//         Scanner scanner = new Scanner(System.in); 
+//         System.out.print("Enter temperature in celsius to convert it later to Fahrenheit: ");
+//         double temp = scanner.nextDouble();   //I used double because if user enters 36.6 in int it will print out an error.
+//         double fahrenheit = temp * 9 / 5 + 32;
+//         System.out.println("Here is your temperature in Foreingeith: " + fahrenheit);
+//         scanner.close();
 
-//8
-class Discount
-{
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+//     }
+// }
 
-        System.out.print("Enter price of one item: ");
-        double price = scanner.nextDouble();  //Price ne vsegda celoe
 
-        System.out.print("Enter quantity: ");
-        int quantity = scanner.nextInt();
+// //6
+// class NumbersAverage
+// {
+//     public static void main(String[] args) {
+//         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter discount percentage: ");
-        double percent = scanner.nextDouble();
+//         System.out.print("Enter the first number: ");
+//         double firstNumber = scanner.nextDouble(); //Srednee ne vsegda celoe 4islo, poetomu double
 
-        double totalPrice = price * quantity;
-        double discount = totalPrice * percent / 100;
-        double finalPrice = totalPrice - discount;
+//         System.out.print("Enter the second number: ");
+//         double secondNumber = scanner.nextDouble();
 
-        System.out.println("Total price before discount: " + totalPrice);
-        System.out.println("Discount: " + discount);
-        System.out.println("Final price: " + finalPrice);
+//         System.out.print("Enter the third number: ");
+//         double thirdNumber = scanner.nextDouble();
 
-        scanner.close();
-    }
-}
+//         double average = (firstNumber + secondNumber + thirdNumber) / 3;
 
-//9
-class Student
-{
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+//         System.out.println("The average of three numbers is: " + average);
 
-        System.out.print("Enter your name: ");
-        String name = scanner.nextLine();
+//         scanner.close();
+//     }
+// }
 
-        System.out.print("Enter your age: ");
-        int age = scanner.nextInt();
-        scanner.nextLine();
 
-        System.out.print("Enter your city: ");
-        String city = scanner.nextLine();
+// //7
+// class TimeConverter
+// {
+//     public static void main(String[] args) {
+//         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter your favorite subject: ");
-        String favoriteSubject = scanner.nextLine();
+//         System.out.print("Enter hours: ");
+//         int hours = scanner.nextInt();
 
-        System.out.print("How many hours do you study per week? ");
-        int studyhoursweek = scanner.nextInt();
+//         System.out.print("Enter minutes: ");
+//         int minutes = scanner.nextInt();
 
-        int studyhoursmonth = studyhoursweek * 4;
+//         int total = hours * 60 + minutes;
 
-        System.out.println();
-        System.out.println("----- Student Profile -----");
-        System.out.println("Name: " + name);
-        System.out.println("Age: " + age);
-        System.out.println("City: " + city);
-        System.out.println("Favorite subject: " + favoriteSubject);
-        System.out.println("Study hours per week: " + studyhoursweek);
-        System.out.println("Study hours in 4 weeks: " + studyhoursmonth);
+//         System.out.println("Total minutes: " + total);
 
-        scanner.close();
-    }
-}
+//         scanner.close();
+//     }
+// }
+
+// //8
+// class Discount
+// {
+//     public static void main(String[] args) {
+//         Scanner scanner = new Scanner(System.in);
+
+//         System.out.print("Enter price of one item: ");
+//         double price = scanner.nextDouble();  //Price ne vsegda celoe
+
+//         System.out.print("Enter quantity: ");
+//         int quantity = scanner.nextInt();
+
+//         System.out.print("Enter discount percentage: ");
+//         double percent = scanner.nextDouble();
+
+//         double totalPrice = price * quantity;
+//         double discount = totalPrice * percent / 100;
+//         double finalPrice = totalPrice - discount;
+
+//         System.out.println("Total price before discount: " + totalPrice);
+//         System.out.println("Discount: " + discount);
+//         System.out.println("Final price: " + finalPrice);
+
+//         scanner.close();
+//     }
+// }
+
+// //9
+// class Student
+// {
+//     public static void main(String[] args) {
+//         Scanner scanner = new Scanner(System.in);
+
+//         System.out.print("Enter your name: ");
+//         String name = scanner.nextLine();
+
+//         System.out.print("Enter your age: ");
+//         int age = scanner.nextInt();
+//         scanner.nextLine();
+
+//         System.out.print("Enter your city: ");
+//         String city = scanner.nextLine();
+
+//         System.out.print("Enter your favorite subject: ");
+//         String favoriteSubject = scanner.nextLine();
+
+//         System.out.print("How many hours do you study per week? ");
+//         int studyhoursweek = scanner.nextInt();
+
+//         int studyhoursmonth = studyhoursweek * 4;
+
+//         System.out.println();
+//         System.out.println("----- Student Profile -----");
+//         System.out.println("Name: " + name);
+//         System.out.println("Age: " + age);
+//         System.out.println("City: " + city);
+//         System.out.println("Favorite subject: " + favoriteSubject);
+//         System.out.println("Study hours per week: " + studyhoursweek);
+//         System.out.println("Study hours in 4 weeks: " + studyhoursmonth);
+
+//         scanner.close();
+//     }
+// }
