@@ -5,7 +5,7 @@ public class NumbersAverage
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter the first number: ");
-        double firstNumber = scanner.nextDouble(); //Srednee ne vsegda celoe 4islo, poetomu double
+        double firstNumber = scanner.nextDouble(); // Average value can be a decimal number, so double is used
 
         System.out.print("Enter the second number: ");
         double secondNumber = scanner.nextDouble();
