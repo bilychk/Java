@@ -11,13 +11,24 @@ Topics covered:
 - Type conversion
 - Basic calculations
 
-## Exercises
+## Programs
+### 1. VisitCard
+A simple program that stores and displays personal information.
 
-| Program | Description |
-| VisitCard | Stores and prints personal information |
-| TwoNumbers | Calculates sum of two numbers |
-| Rectangle | Calculates area and perimeter |
-| Temperature | Converts Celsius to Fahrenheit |
-| NumbersAverage | Calculates average value |
-| Discount | Calculates final price after discount |
-| StudentProfile | Creates student profile |
+### 2. TwoNumbers
+A program that takes two numbers as input and calculates their sum.
+
+### 3. Rectangle
+A program that calculates the area and perimeter of a rectangle.
+
+### 4. Temperature
+A program that converts temperature from Celsius to Fahrenheit.
+
+### 5. NumbersAverage
+A program that calculates the average value of three numbers.
+
+### 6. Discount
+A program that calculates the total price, discount amount, and final price after applying a discount.
+
+### 7. StudentProfile
+A program that creates and displays a student profile with study hours calculation.
