@@ -4,7 +4,7 @@ class Discount
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter price of one item: ");
-        double price = scanner.nextDouble();  //Price ne vsegda celoe
+        double price = scanner.nextDouble();  // Price can contain decimal values, so double is used
 
         System.out.print("Enter quantity: ");
         int quantity = scanner.nextInt();
