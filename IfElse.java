@@ -1,4 +1,4 @@
-// If Else Statements and Scanner
+// If Else Statements
 import java.util.Scanner;
 public class IfElse {  // scanner is a class used to reading and input data transformation
     
