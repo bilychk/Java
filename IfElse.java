@@ -46,7 +46,7 @@ public class IfElse {  // scanner is a class used to reading and input data tran
 
         //not -) !if(!false)){}
 
-        //int age = 20
+        //int age = 20; 
         // if(age == 18);
         // System.out.println("You are 18 years old.");
         // if(!(age==18))
