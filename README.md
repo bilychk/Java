@@ -5,7 +5,7 @@ The goal of this repository is to improve my understanding of:
 - Java fundamentals
 - Object-Oriented Programming (OOP)
 - Data Structures & Algorithms
-- Problem-solving skills
+- Problem-solving
 - Clean coding practices
 
 
