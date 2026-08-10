@@ -28,8 +28,9 @@ public class Delivery_price {
         }
 
         double totalPrice = orderSum + cost;
-
+        System.out.print("------------------------");
         System.out.println("The price for delivery is: " + cost);
+        System.out.print("------------------------");
         System.out.println("Total cost of delivery: " + totalPrice);
 
         scanner.close();
