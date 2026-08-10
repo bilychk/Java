@@ -16,10 +16,10 @@ public class DateChecker {
             isValid = false;
         }
         else if (month == 2) {  //february check
-            isValid = day >= 1 && day <= 28;  // && two statements must be true!
+            isValid = day >= 1 && day <= 29;  // && two statements must be true!
         }
         else if (month == 4 || month == 6 || month == 9 || month == 11) { // if is april, june, sept or november then there is 30 days.
-            isValid = day >= 1 && day <= 30;
+            isValid = day >= 1 && day <= 30; 
         }
         else {
             isValid = day >= 1 && day <= 31;
