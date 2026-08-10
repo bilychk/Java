@@ -1,9 +1,9 @@
-import java.util.Scanner;
-public class HelloWorld //We can do only one public class in one file
-{
-    public static void main(String[] args){
-        System.out.println("Hello world");   // ln is line new    , to comment whole section pick Command and ?/ button
-        System.out.println("Hello");
+// import java.util.Scanner;
+// public class HelloWorld //We can do only one public class in one file
+// {
+//     public static void main(String[] args){
+//         System.out.println("Hello world");   // ln is line new    , to comment whole section pick Command and ?/ button
+//         System.out.println("Hello");
         // print() - everything in one line
         // println() - every line in differetn row
         // \n - new line
@@ -34,13 +34,13 @@ public class HelloWorld //We can do only one public class in one file
         //byte -127 do 126 (1 bayt)
         //byte a = 12;
 
-        // char 
-        // char x = 97; //a
-        // System.out.print(x);
+//         // char 
+//         // char x = 97; //a
+//         // System.out.print(x);
 
 
-    }
-}
+//     }
+// }
 
-// Переменная - это именованное место для хранения значения. У каждой переменной в Java есть тип, имя и текущее значение.
+// // Переменная - это именованное место для хранения значения. У каждой переменной в Java есть тип, имя и текущее значение.
 
