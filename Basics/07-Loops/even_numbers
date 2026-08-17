@@ -4,12 +4,12 @@ public class even_numbers {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter N: ");
-        int n = sc.nextInt();
+        System.out.print("Enter Number: ");
+        int number = sc.nextInt();
 
         int sum = 0;
 
-        for (int i = 1; i <= n; i++) {   
+        for (int i = 1; i <= number; i++) {   
             if (i % 2 == 0) {
                 sum += i;
             }
