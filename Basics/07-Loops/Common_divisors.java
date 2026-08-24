@@ -17,5 +17,6 @@ public class Common_divisors {
                 System.out.println(i);
             }
         }
+        scanner.close();
     }
 }

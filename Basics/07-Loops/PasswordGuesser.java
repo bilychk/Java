@@ -23,5 +23,6 @@ public class PasswordGuesser {
         if (!accessGranted) {
             System.out.println("Blocked");
         }
+        scanner.close();
     }
 }

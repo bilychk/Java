@@ -16,5 +16,7 @@ public class Divide_by_two {
 
         System.out.println("End number: " + number);
         System.out.println("Amount of divides: " + count);
+        scanner.close();
     }
+    
 }

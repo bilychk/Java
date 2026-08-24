@@ -31,5 +31,6 @@ public class GradeStatistics {
         System.out.println("Mean: " + average);
         System.out.println("Amount of grades with excellent value: " + fives);
         System.out.println("Amount of grades with bad value: " + unsatisfactory);
+        scanner.close();
     }
 }
