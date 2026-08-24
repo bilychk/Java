@@ -8,8 +8,8 @@ public class GradeStatistics {
         int n = scanner.nextInt();
 
         int sum = 0;
-        int fives = 0;
-        int unsatisfactory = 0;
+        int excellent = 0;
+        int bad = 0;
 
         for (int i = 1; i <= n; i++) {
             System.out.print("Enter grade " + i + ": ");
@@ -18,19 +18,19 @@ public class GradeStatistics {
             sum += grade;
 
             if (grade == 5) {
-                fives++;
+                excellent++;
             }
 
             if (grade == 1 || grade == 2) {
-                unsatisfactory++;
+                bad++;
             }
         }
 
         double average = (double) sum / n;
 
         System.out.println("Mean: " + average);
-        System.out.println("Amount of grades with excellent value: " + fives);
-        System.out.println("Amount of grades with bad value: " + unsatisfactory);
+        System.out.println("Amount of grades with excellent value: " + excellent);
+        System.out.println("Amount of grades with bad value: " + bad);
         scanner.close();
     }
 }

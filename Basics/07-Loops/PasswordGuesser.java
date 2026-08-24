@@ -4,7 +4,7 @@ public class PasswordGuesser {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        int password = 4321;
+        int password = 12345;
         boolean accessGranted = false;
 
         for (int attempt = 1; attempt <= 3; attempt++) {
@@ -20,7 +20,7 @@ public class PasswordGuesser {
             }
         }
 
-        if (!accessGranted) {
+        if (!accessGranted) {  // esli ne poluchilos
             System.out.println("Blocked");
         }
         scanner.close();
